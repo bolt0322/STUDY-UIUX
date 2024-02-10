@@ -1,0 +1,18 @@
+.slideshow-container {
+    overflow: hidden;
+  }
+  
+  .slideshow {
+    display: flex;
+    animation: slide 10s linear infinite; /* 이미지 슬라이드 애니메이션 */
+  }
+  
+  .slide {
+    width: 100%;
+    flex-shrink: 0;
+  }
+  
+  @keyframes slide {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-100%); }
+  }
