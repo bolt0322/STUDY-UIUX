@@ -7,26 +7,26 @@ document.addEventListener("DOMContentLoaded", function () {
     homeLink.forEach(function (link) {
       link.addEventListener("click", function (e) {
         e.preventDefault();
-        scrollToSection(".section-main");
+        scrollToSection("#main");
       });
     });
   
     introduceLink.forEach(function (link) {
       link.addEventListener("click", function (e) {
         e.preventDefault();
-        scrollToSection(".section-introduce");
+        scrollToSection("#introduce");
       });
     });
     travelLink.forEach(function (link) {
       link.addEventListener("click", function (e) {
         e.preventDefault();
-        scrollToSection(".section-travel");
+        scrollToSection("#travel");
       });
     });
     movieLink.forEach(function (link) {
       link.addEventListener("click", function (e) {
         e.preventDefault();
-        scrollToSection(".section-movie");
+        scrollToSection("#movie");
       });
     });
   
